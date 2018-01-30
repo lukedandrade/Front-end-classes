@@ -1,3 +1,7 @@
 Linguagens:
   - Ionic
   - Angular
+
+
+Sites úteis:
+  - Draw.io
