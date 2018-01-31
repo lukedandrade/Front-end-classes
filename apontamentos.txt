@@ -5,3 +5,4 @@ Linguagens:
 
 Sites úteis:
   - Draw.io
+  - shoelace.io
