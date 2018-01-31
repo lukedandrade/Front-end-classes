@@ -15,25 +15,26 @@
 			</div>
 		</section>
 		<section id="sobre" class="bordered">
-			<h1 class="titulo">Sobre:</h1>
+			<h1 class="titulo itens">Sobre:</h1>
 			<div class="divisao">
 				<div class="subdivisao valign"><img class="round-img" src="images/LL.jpg"></div>
 				<div id="lista" class="subdivisao valign">
 					<ul>
-						<li><p>Experiente no uso da linguagem Python</p></li>
-						<li><p>Graduando de Engenharia Mecatrônica</p></li>
-						<li><p>Leciona em horas vagas</p></li>
+						<li><p class="itens">Experiente no uso da linguagem Python</p></li>
+						<li><p class="itens">Graduando de Engenharia Mecatrônica</p></li>
+						<li><p class="itens">Leciona em horas vagas</p></li>
 					</ul>
-					<!-- <p>Prioridades</p>
+					<h3 class="titulo itens">Prioridades</h3>
 					<ol>
-						<li><p>Aprendizado</p></li>
-						<li><p>Leitura</p></li>
-						<li><p>Desenvolvimento de projetos próprios</p></li>
-					</ol> -->
+						<li><p class="itens">Aprendizado</p></li>
+						<li><p class="itens">Leitura</p></li>
+						<li><p class="itens">Desenvolvimento de projetos próprios</p></li>
+					</ol>
 				</div>
 			</div>
 		</section>
 		<section id="portfolio" class="bordered">
+			<h1 class="titulo itens">Videos:</h1>
 			<div id="videos" class="divisao">
 				<div class="subdivisao video">	
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/wG8jfptkPI4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -44,24 +45,28 @@
 			</div>
 		</section>
 		<section id="contato" class="bordered">
-			<form>
-				<div>
-					<label for="nome">Nome: </label>
-					<input id="nome" type="text" placeholder="Fulano" />
+			<div class="divisao">
+				<div class="subdivisao">	
+					<form class="bordered">
+						<div>
+							<label for="nome">Nome: </label>
+							<input id="nome" type="text" placeholder="Fulano" />
+						</div>
+						<div>
+							<label for="email">Email: </label>
+							<input id="email" type="email" placeholder="fulano@detal.com" />
+						</div>
+						<div>
+							<label for="mensagem">Mensagem: </label>
+							<textarea id="mensagem"></textarea>
+						</div>
+						<div>
+							<input type="submit" name="enviar" value="Enviar" />
+							<input type="reset" name="Limpar">
+						</div>
+					</form>
 				</div>
-				<div>
-					<label for="email">Email: </label>
-					<input id="email" type="email" placeholder="fulano@detal.com" />
-				</div>
-				<div>
-					<label for="mensagem">Mensagem: </label>
-					<textarea id="mensagem"></textarea>
-				</div>
-				<div>
-					<input type="submit" name="enviar" value="Enviar" />
-					<input type="reset" name="Limpar">
-				</div>
-			</form>
+			</div>
 		</section>
 	</div>
 </body>

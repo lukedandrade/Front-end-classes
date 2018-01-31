@@ -13,6 +13,7 @@
 .nome-dev{
 	font-family: 'Roboto', sans-serif;
 	font-size: 32pt;
+	color: gray;
 }
 
 .titulo{
@@ -22,6 +23,7 @@
 .descricao-dev{
 	font-family: 'Asap', sans-serif;
 	font-size: 16pt;
+	color: gray;
 }
 
 .nome-dev, .descricao-dev{
@@ -29,24 +31,20 @@
 }
 
 #home{
-	background: url(../images/VE-W.jpg);
+	background: url(../images/BI0.jpg);
 	background-color: lightblue;
 	background-size: cover;
-	background-repeat: no-repeat;
-	
+	background-repeat: no-repeat;	
 }
 
 .subdivisao{
 	width: 49%;
 	display: inline-block;
-	text-align: center;
-
 }
 
 .round-img{
 	border-radius: 50%;
 	border: 1px solid black;
-
 }
 
 .divisao{
@@ -55,15 +53,35 @@
 }
 
 #sobre{
-	background-color: lightblue;
-
+	background: linear-gradient(to bottom, #000066 0%, #66ccff 100%);
+	/*background: url(../images/KK-W.png);*/
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #portfolio{
+	background: linear-gradient(to bottom, #000066 0%, #66ccff 100%);
 	background-color: coral; 
 }
 
 .valign{
 	display: table-cell;
 	vertical-align: middle;
+}
+
+p{
+	font-family: 'Asap', sans-serif;
+}
+
+.itens, ul, ol{
+	color: white;
+}
+
+.video{
+	text-align: center;
+	min-width: 680px;
+}
+
+#contato{
+	background: linear-gradient(to bottom, #000066 0%, #66ccff 100%);
 }
