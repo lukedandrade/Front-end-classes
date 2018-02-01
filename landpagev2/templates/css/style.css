@@ -30,3 +30,8 @@
 	border-top: 1px solid #ccc;
 	padding-top: 6px;
 }
+
+.dev{
+	font-weight: lighter;
+	font-style: italic;
+}
