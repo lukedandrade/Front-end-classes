@@ -39,3 +39,16 @@
 .background-lul{
 	background-color: lightblue;
 }
+
+.inputs:hover{
+	color: #495057;
+    background-color: #fff;
+    border-color: yellow;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem yellow;
+}
+
+.conheca-me{
+	color: #007bff;
+	background-color: #fff;
+}
