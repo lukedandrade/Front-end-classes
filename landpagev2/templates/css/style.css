@@ -11,7 +11,7 @@
 	height: auto;
 	max-width: 450px;
 	border-radius: 50%;
-	border-style: double;
+	border-style: solid;
 	border-color: black;
 	border-style: 1rem;
 }
@@ -37,18 +37,26 @@
 }
 
 .background-lul{
-	background-color: lightblue;
+	background-color: orange;
 }
 
 .inputs:hover{
 	color: #495057;
     background-color: #fff;
-    border-color: yellow;
+    border-color: green;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem yellow;
+    box-shadow: 0 0 0 0.2rem greenyellow;
 }
 
 .conheca-me{
 	color: #007bff;
 	background-color: #fff;
+}
+
+h1, h2, h3{
+	font-family: 'Roboto', sans-serif;
+}
+
+p, li, a {
+	font-family: 'Asap', sans-serif;
 }

@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Lucas Lima</title>
+	<link href="https://fonts.googleapis.com/css?family=Asap|Roboto" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="templates/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="templates/css/bootstrap-grid.min.css">
 	<link rel="stylesheet" type="text/css" href="templates/css/style.css">
@@ -10,18 +11,20 @@
 <body>
 	<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end sticky-top">
 		<ul class="navbar-nav">
-			<li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
-			<li class="nav-item"><a class="nav-link" href="#portfolio">Portifolio</a></li>
-			<li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+			<li class="nav-item"><a class="nav-link scroll-animate" href="#sobre">Sobre</a></li>
+			<li class="nav-item"><a class="nav-link scroll-animate" href="#portfolio">Portifolio</a></li>
+			<li class="nav-item"><a class="nav-link scroll-animate" href="#contato">Contato</a></li>
 		</ul>
 	</nav>
-	<div class="jumbotron">
-		<div class="container center home">
+	<section id="presentation" class="home">
+		<div class="container center">
 			<h1 class="text-light">Lucas Lima</h1>
 			<hr class="my-4" />
 			<p class="lead text-light">Back-end Developer</p>
-			<a href="#sobre" class="conheca-me btn btn-primary">Conheça-me!</a>
-		</div>
+			<a id="conheca-me" href="#sobre" class="conheca-me btn btn-primary">Conheça-me!</a>
+		</div>	
+	</section>
+	<div class="jumbotron background-lul">
 		<div class="container background-lul">
 			<section id="sobre">
 				<h1 class="center">Sobre</h1>
@@ -47,7 +50,7 @@
     			</div>
 			</section>
 			<section id="portfolio">
-				<h1 class="center">Portfolio</h1>
+				<h1 class="center mt-4">Portfolio</h1>
 				<div class="row mt-4">
         			<div class="col-lg-6">
         				<div class="embed-responsive embed-responsive-16by9">
@@ -62,7 +65,7 @@
     			</div>
 			</section>
 			<section id="contato">
-				<h1 class="center">Contato</h1>
+				<h1 class="center mt-4">Contato</h1>
 				<form class="mt-4">
 					<div class="form-group">
 						<input type="text" placeholder="Nome"
@@ -95,6 +98,8 @@
 				Desenvolvido com &#x2615;, por <span class="dev">Lucas Lima.</span>
 			</p>
 		</footer>
+		<script type="text/javascript" src="templates/js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="templates/js/app.js"></script>
 	</div>
 </body>
 </html>
